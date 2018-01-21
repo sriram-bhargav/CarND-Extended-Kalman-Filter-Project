@@ -62,8 +62,8 @@ FusionEKF::FusionEKF() {
               0, 0, 0, 0;
   
   // noise of ax and ay
-  noise_ax = 9.0;
-  noise_ay = 9.0;
+  noise_ax = 9;
+  noise_ay = 9;
 }
 
 /**
